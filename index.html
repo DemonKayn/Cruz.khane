@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Fixed Issue #5: Corrected meta viewport tag by adding comma -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voices for Justice</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Voices for Justice</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Fixed Issue #1: Added closing </li> tags to all list items -->
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#campaigns">Campaigns</a></li>
+          <li class="nav-item"><a class="nav-link" href="#involve">Get Involved</a></li>
+          <li class="nav-item"><a class="nav-link" href="#newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero text-white" style="background: url('hr.jpg') center center/cover no-repeat; min-height: 350px;">
+    <div class="container py-5">
+      <h1>Stand Up. Speak Out. Make a Change.</h1>
+      <p>Join our fight for justice and equality around the world.</p>
+      <a href="#involve" class="btn btn-lg btn-primary">Get Involved</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center section-title">About Us</h2>
+      <p class="text-center">We are a global advocacy group fighting for human rights, equality, and freedom for all. 
+      <br>Our mission is to amplify marginalized voices and challenge injustice wherever it occurs.</br></p>
+    </div>
+  </section>
+
+  <!-- Campaigns -->
+  <section id="campaigns" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">Our Current Campaigns</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="cr1.jpg" class="card-img-top" alt="Children's Rights">
+            <div class="card-body">
+              <h5 class="card-title">Children's Rights</h5>
+              <p class="card-text">Protecting the rights of children in vulnerable communities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="fe.jpg" class="card-img-top" alt="Freedom of Expression">
+            <div class="card-body">
+              <h5 class="card-title">Freedom of Expression</h5>
+              <p class="card-text">Standing with journalists and activists under threat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="ad.jpg" class="card-img-top" alt="Anti-Discrimination">
+            <div class="card-body">
+              <h5 class="card-title">Anti-Discrimination</h5>
+              <p class="card-text">Promoting equality and dignity for every person.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved -->
+  <section id="involve" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center section-title">How You Can Help</h2>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="btn btn-outline-primary">Donate</a>
+        <a href="#" class="btn btn-outline-primary">Volunteer</a>
+        <a href="#" class="btn btn-outline-primary">Share Our Message</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">Subscribe to Our Newsletter</h2>
+      <form class="row justify-content-center" id="newsletterForm">
+        <div class="col-md-6">
+          <input type="email" id="emailInput" class="form-control mb-2" placeholder="Enter your email">
+          <button class="btn btn-primary w-100">Subscribe</button>
+          <p id="formMessage" class="mt-2 text-center"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Voices for Justice. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

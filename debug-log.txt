@@ -1,0 +1,53 @@
+1. Navbar Tags Issue
+Problem:
+Yung mga <li> sa navbar, parang text na biglang natigil - walang closing </li>!
+
+Fix:
+Nilagyan ko ng proper closing tags para kumpleto na
+Chineck sa DevTools para siguradong okay na
+
+
+2. Campaign Section Layout
+Problem:
+May mga <div> na parang pinto na nakabukas - walang </div> closer
+
+Fix:
+Sinara ko lahat ng open divs para maayos ang flow
+Gumamit ng code indentation para kita agad ang structure
+
+
+3. Meta Viewport Problem
+Problem:
+Yung meta viewport, parang text na walang comma - "width=device-width initial-scale=1.0"
+
+Fix:
+Pinalitan ng tamang format: width=device-width, initial-scale=1.0
+
+
+4. Missing Sections
+Problem:
+Wala yung "Who We Are" at "How You Can Help" sections
+
+Fix:
+Dinugtungan ko based sa reference pics
+Tiniyak na match ang design at content
+
+
+5. Kulang na Campaign Cards
+Problem:
+Dapat tatlo (Human Rights, Freedom of Expression, Anti-Discrimination) pero isa lang
+
+Fix:
+Ginawa ko yung dalawang missing cards
+Ginamit same styling 
+
+
+
+
+6. Not loading Image
+Problem:
+Yung image is wala sa download folder na binigay niyo
+Fix:
+Pinalitan ko ng bagong image
+Tiniyak na tama ang file path
+
